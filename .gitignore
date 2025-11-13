@@ -34,6 +34,7 @@ results/
 *.txt
 *.md
 !README.md
+!QUICKSTART.md
 !requirements.txt
 
 # IDE
