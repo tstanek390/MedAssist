@@ -35,6 +35,7 @@ results/
 *.md
 !README.md
 !QUICKSTART.md
+!STANDALONE_USAGE.md
 !requirements.txt
 
 # IDE

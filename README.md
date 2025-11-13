@@ -19,13 +19,38 @@ This tool helps healthcare professionals organize 100-500+ medical infographic i
 - ⚡ **Progress Logging**: Real-time feedback during analysis
 - 🛡️ **Error Handling**: Robust handling of API failures and edge cases
 
+## Quick Start (Easiest Way)
+
+**Want to just run it? Use the standalone script:**
+
+```bash
+# 1. Install dependencies
+pip install anthropic pillow
+
+# 2. Run the organizer
+export ANTHROPIC_API_KEY='your-key'
+python medical_image_organizer.py /path/to/your/images
+```
+
+That's it! The standalone script runs both phases automatically. See [STANDALONE_USAGE.md](STANDALONE_USAGE.md) for detailed instructions.
+
+---
+
 ## Prerequisites
 
-- Python 3.12 or higher
+- Python 3.12 or higher (3.8+ works with standalone script)
 - Anthropic API key ([get one here](https://console.anthropic.com/))
 - Medical images in supported formats: JPG, PNG, GIF, WebP
 
 ## Installation
+
+### Option 1: Standalone Script (Recommended for Most Users)
+
+1. **Download `medical_image_organizer.py`**
+2. **Install dependencies:** `pip install anthropic pillow`
+3. **Run it:** See [STANDALONE_USAGE.md](STANDALONE_USAGE.md)
+
+### Option 2: Full Project Setup (For Development)
 
 1. **Clone or download this repository**
 
