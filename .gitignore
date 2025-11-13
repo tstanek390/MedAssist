@@ -32,12 +32,13 @@ results/
 *.json
 *.csv
 *.txt
+!requirements.txt
+!requirements-*.txt
 *.md
 !README.md
 !QUICKSTART.md
 !STANDALONE_USAGE.md
 !MOBILE_SEARCH.md
-!requirements.txt
 
 # IDE
 .vscode/
