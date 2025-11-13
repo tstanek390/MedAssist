@@ -40,6 +40,8 @@ results/
 !STANDALONE_USAGE.md
 !MOBILE_SEARCH.md
 !AI_CLINICAL_QUERY.md
+!iOS_APP_QUICKSTART.md
+!ios-app/**/*.md
 
 # IDE
 .vscode/
